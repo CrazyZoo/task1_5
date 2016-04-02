@@ -1,0 +1,180 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#container {
+  background-color: #eee;
+}
+
+nav {
+  background-color: black;
+  height: 60px;
+}
+
+nav div {
+  display: inline-block;
+}
+
+#logo img {
+  height: 60px;
+  margin: 0 25px;
+}
+
+#navigation {
+  float: right;
+  font-size: 12px;
+}
+
+#navigation ul {
+  width: 100%;
+}
+
+#navigation li {
+  height: 60px;
+  line-height: 60px;
+  float: left;
+  margin-right: 15px;
+  padding-left: 10px;
+}
+
+#navigation li a {
+  color: white;
+  text-decoration: none;
+}
+
+#navigation li a:hover {
+  color: grey;
+}
+
+
+#main {
+  margin-right: 420px;
+}
+
+article {
+  background-color: white;
+  margin: 20px 20px 0;
+  padding: 30px 20px;
+  box-shadow: 1px 1px 3px grey;
+  overflow: auto;
+}
+
+article h1 {
+  font-size: 24px;
+  font-weight: bolder;
+  margin-bottom: 16px;
+}
+
+article h2 {
+  font-size: 16px;
+  color: grey;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+article .author {
+  font-size: 14px;
+  color: grey;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+
+article p {
+  font-weight: bold;
+  text-indent: 2em;
+}
+
+article img {
+  margin: 10px 0;
+}
+
+article .images {
+  float: left;
+  width: 140px;
+  height: 140px;
+  margin: 0 20px 20px 0;
+  padding: 5px;
+  border: 1px solid grey;
+  text-align: center;
+}
+
+article .images img {
+  width: 130px;
+  height: 100px;
+  padding: 0 5px 5px;
+}
+
+article ol {
+  margin-left: 40px;
+  font-weight: bold;
+}
+
+article table {
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-collapse: collapse;
+  width: 100%;
+  text-align: left;
+}
+
+article thead {
+  background-color: black;
+  color: white;
+}
+
+article th, article tbody td {
+  padding: 5px;
+  border: 1px solid #ddd;
+}
+
+article tfoot td {
+  background-color: grey;
+  font-weight: bold;
+  margin: 10px 0;
+  padding: 5px;
+}
+
+#side {
+    background-color: white;
+    margin: 20px 20px;
+    padding: 30px 20px;
+    float: right;
+    width: 400px;
+    box-shadow: 1px 1px 3px;
+}
+
+#side h2 {
+    margin-bottom: 10px;
+    border-left: 4px solid #ddd;
+    padding: 5px;
+}
+
+#side #form td {
+    padding: 10px;
+}
+
+#side #form td.hint {
+    color: #ccc;
+    font-size: 12px;
+}
+
+#side #form td.label {
+    text-align: right;
+}
+
+#side #form textarea {
+    width: 200px;
+    height: 100px;
+}
+
+#side #submit-btn {
+    width: 100%;
+    background-color: blue;
+    color: white;
+    font-size: 16px;
+    border: 1px solid blue;
+    border-radius: 5px;
+    padding: 10px;
+}
